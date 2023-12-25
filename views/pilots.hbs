@@ -1,0 +1,18 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="/pilots.css">
+    </head> 
+    <body> 
+        <h1>Pilots</h1> 
+        <ol> 
+            {{#each pilots}} 
+            <li> 
+                {{#with this}}  
+                <p>{{name}}</p> 
+                {{/with}} 
+            </li> 
+            {{/each}} 
+        </ol><br><br><br> <br><br>
+    </body> 
+    <footer>CREATED WITH GOD`S HELP</footer>
+</html>

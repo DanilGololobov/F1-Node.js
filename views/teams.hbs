@@ -1,0 +1,20 @@
+<html> 
+    <head> 
+        <link rel="stylesheet" href="/teams.css"> 
+    </head> 
+    <body> 
+        <h1>Teams</h1> 
+        <ul> 
+            {{#each teams}} 
+            <li> 
+                {{#with this}} 
+                <p>{{title}}</p> 
+                <p>{{manager.name}}</p> 
+                <p>{{pilot.name}}</p>
+                {{/with}} 
+            </li> 
+            {{/each}} 
+        </ul><br><br><br> <br><br>
+    </body> 
+    <footer>CREATED BY DANIL GOLOLOBOV</footer>
+</html>

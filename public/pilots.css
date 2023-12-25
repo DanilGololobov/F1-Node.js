@@ -1,0 +1,14 @@
+body{
+    font-family:fantasy;
+    background-color: rgb(0, 0, 0)
+
+}
+h1{
+    color: rgb(255, 174, 0);
+}
+p{
+    color: rgb(253, 177, 36);
+}
+footer{
+    color: white;
+}

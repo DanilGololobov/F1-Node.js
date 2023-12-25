@@ -1,0 +1,23 @@
+<html> 
+    <head>
+        <link rel="stylesheet" href="/managers.css">
+    </head> 
+    <body> 
+        <h1>Managers</h1> 
+        <ul> 
+            {{#each managers}} 
+            <li> 
+                {{#with this}}  
+                <p>{{name}}</p> 
+                <ul>
+                    {{#each teams}}
+                    <li>{{this.title}}</li>
+                    {{/each}}
+                </ul> 
+                {{/with}} 
+            </li> 
+            {{/each}} 
+        </ul><br><br><br> <br><br>
+    </body> 
+    <footer>CREATED BY CHAT GPT4.1</footer>
+</html>

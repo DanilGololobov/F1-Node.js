@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 13, 112);
+
+}
+h1{
+    color: red;
+}
+p{
+    color: yellow;
+}
+footer{
+    color: white;
+}
